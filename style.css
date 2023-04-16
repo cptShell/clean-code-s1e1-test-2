@@ -108,7 +108,7 @@ input,button{
   vertical-align: middle;
 }
 
-.list-item > input[type="checkbox"] {
+.task-checkbox {
   margin: 0 10px;
 }
 .list-item > label {
@@ -117,7 +117,7 @@ input,button{
   font-size: 18px;
   width: 226px;
 }
-.list-item > input[type="text"] {
+.list-item > .task-item {
   width: 226px;
 }
 .delete-icon {
@@ -130,21 +130,21 @@ input,button{
 }
 
 /* Completed */
-ul#completed-list label {
+#completed-list > .task-label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-ul .list-item input[type=text] {
+.list-item .task-input {
   display: none;
 }
 
-ul .list-item.editable input[type=text] {
+.list-item.editable .task-input {
   display: inline-block;
   width: 224px;
 }
 
-ul .list-item.editable label {
+.list-item.editable label {
   display: none;
 }
