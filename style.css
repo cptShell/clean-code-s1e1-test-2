@@ -117,7 +117,7 @@ input,button{
   font-size: 18px;
   width: 226px;
 }
-.list-item >    input[type="text"] {
+.list-item > input[type="text"] {
   width: 226px
 }
 .delete-icon {
