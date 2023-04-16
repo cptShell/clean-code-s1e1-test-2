@@ -43,8 +43,7 @@ ul {
   margin: 0;
   padding: 0px;
 }
-.list-item,
-h3 {
+.list-item {
   list-style: none;
 }
 input,button{
@@ -144,11 +143,11 @@ input,button{
 }
 
 /* Edit Task */
-.list-item .list-item__input {
+.list-item__input {
   display: none;
 }
 
-.list-item.editable .list-item__input {
+.editable .list-item__input {
   display: inline-block;
   width: 224px;
 }
